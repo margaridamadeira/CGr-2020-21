@@ -1,0 +1,15 @@
+- file: CGr-2020-21
+
+- part: Início
+  chapters:
+  - file: docs/start/Apresentação
+
+- part: S1
+  chapters:
+  - file: docs/S1/Introd
+    sections:
+      - file: docs/S1/partes/UC
+      - file: docs/S1/partes/CGr
+  - file: docs/S1/P1
+       
+
