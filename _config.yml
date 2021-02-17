@@ -17,10 +17,6 @@ html:
   baseurl                     : https://margaridamadeira.github.io/CGr-2020-21/
 
 #######################################################################################
-# Launch button settings
-launch_buttons:
-  notebook_interface          : "classic"
-  binderhub_url               : "https://mybinder.org"
 
 # Information about where the book exists on the web
 repository:
