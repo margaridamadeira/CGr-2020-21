@@ -43,12 +43,9 @@ O plano de aulas, teóricas e práticas laboratoriais da edição de 2020-21 de 
 |  S12  | 25 mai | T23 | |  |  |
 |  S12  | 27 mai | T24 | |  |  |
 |  S13  |        | P12 | |  |  |
-|  S13  | 25 mai | T25 | |  |  |
-|  S13  | 27 mai | T26 | |  |  |
+|  S13  |  1 jun | T25 |  |  |  |
+|  S13  |  1 jun | T26 | |  |  |
 |  S14  |        | P13 | Discussão dos trabalhos práticos|  |  |
-|  S14  |  1 jun | T27 | Prova de autoavaliação |  |  |
-|  S14  |  3 jun | --  | |  |  |
-|  S15  |        | P14 | Discussão dos trabalhos práticos|  |  |
-|  S15  |  8 jun | T28 | Discussão da autoavaliação |  |  |
-|  S15  | 10 jun | --  |  |  |  |
+|  S14  |  8 jun | T27 | Prova de autoavaliação |  |  |
+|  S14  |  8 jun | T28 | |  |  |
 
