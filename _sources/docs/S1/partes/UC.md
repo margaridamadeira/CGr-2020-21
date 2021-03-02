@@ -18,6 +18,9 @@ Após esse prazo, cada dia (útil ou não) ou parte de dia é penalizado em 20\%
 
 Trabalhamos ao abrigo do {ref}`codHonra`.
 
+É permitido: discussão dos materiais das aulas, enunciados dos trabalhos, conceitos informáticos associados a C/C++, OpenGL e GLSL.
+
+_Não_ é permitido: partilha de detalhes de implementação, código, algoritmos, pseudo-código ou algo relacionado com o desenvolvimento de (re)soluções.
 
 ## Planeamento
 

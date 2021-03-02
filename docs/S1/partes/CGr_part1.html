@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Avaliação na UC CGr 2020-21 &#8212; Computação Gráfica 2020-2021</title>
+    <title>Introdução &#8212; Computação Gráfica 2020-2021</title>
     
   <link rel="stylesheet" href="../../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -52,21 +52,21 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../../_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://margaridamadeira.github.io/CGr-2020-21/docs/S1/partes/UC.html" />
+    <link rel="canonical" href="https://margaridamadeira.github.io/CGr-2020-21/docs/S1/partes/CGr_part1.html" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Introdução" href="CGr_part1.html" />
-    <link rel="prev" title="Introdução" href="../Introd.html" />
+    <link rel="next" title="Preparação do ambiente de trabalho" href="../../S2/P1.html" />
+    <link rel="prev" title="Avaliação na UC CGr 2020-21" href="UC.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
 
 
 <!-- Opengraph tags -->
-<meta property="og:url"         content="https://margaridamadeira.github.io/CGr-2020-21/docs/S1/partes/UC.html" />
+<meta property="og:url"         content="https://margaridamadeira.github.io/CGr-2020-21/docs/S1/partes/CGr_part1.html" />
 <meta property="og:type"        content="article" />
-<meta property="og:title"       content="Avaliação na UC CGr 2020-21" />
-<meta property="og:description" content="Avaliação na UC CGr 2020-21  A ficha da unidade curricular está na Tutoria.  Aqui detalham-se alguns aspetos particulares relativos à avaliação.  Notas  Ao long" />
+<meta property="og:title"       content="Introdução" />
+<meta property="og:description" content="Introdução  &lt;aside class=&#34;notes&#34;&gt; Uma perspectiva geral (e histórica) sobre computação gráfica e a nossa abordagem. &lt;/aside&gt;     &lt;!-- .slide: style=&#34;text-align:" />
 <meta property="og:image"       content="https://margaridamadeira.github.io/CGr-2020-21/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -121,13 +121,13 @@
    Introdução
   </a>
   <ul class="current">
-   <li class="toctree-l2 current active">
-    <a class="current reference internal" href="#">
+   <li class="toctree-l2">
+    <a class="reference internal" href="UC.html">
      Avaliação na UC CGr 2020-21
     </a>
    </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="CGr_part1.html">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Introdução
     </a>
    </li>
@@ -187,7 +187,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../../_sources/docs/S1/partes/UC.md"><button type="button"
+        <a class="dropdown-buttons" href="../../../_sources/docs/S1/partes/CGr_part1.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -218,24 +218,60 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#notas">
-   Notas
+  <a class="reference internal nav-link" href="#definicao">
+   Definição
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#entregas-atrasadas">
-   Entregas atrasadas
+  <a class="reference internal nav-link" href="#aplicacoes-de-computacao-grafica">
+   Aplicações de Computação gráfica
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#politica-de-integridade">
-   Política de integridade
+  <a class="reference internal nav-link" href="#perspetiva-historica">
+   Perspetiva histórica
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sistemas-graficos-interactivos">
+     Sistemas Gráficos Interactivos
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#animacoes">
+   Animações
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#planeamento">
-   Planeamento
+  <a class="reference internal nav-link" href="#efeitos-especiais">
+   Efeitos especiais
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#como-criar-imagens-sinteticas">
+   Como criar imagens sintéticas?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pipeline">
+     <em>
+      Pipeline
+     </em>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visao-geral">
+     Visão geral
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bibliografia">
+     Bibliografia
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -248,28 +284,116 @@
         
               <div>
                 
-  <div class="section" id="avaliacao-na-uc-cgr-2020-21">
-<span id="uc"></span><h1>Avaliação na UC CGr 2020-21<a class="headerlink" href="#avaliacao-na-uc-cgr-2020-21" title="Permalink to this headline">¶</a></h1>
-<p>A ficha da unidade curricular está na <a class="reference external" href="https://academico.ualg.pt/netpa/doc?codeDiscip=14781057&amp;anoLectivo=202021&amp;codInstituic=9&amp;stage=FichaUnidadeCurricular&amp;_event=publicacaoFUC&amp;docIsAttachment=false">Tutoria</a>.</p>
-<p>Aqui detalham-se alguns aspetos particulares relativos à avaliação.</p>
-<div class="section" id="notas">
-<h2>Notas<a class="headerlink" href="#notas" title="Permalink to this headline">¶</a></h2>
-<p>Ao longo do semestre vão sendo apresentados temas e propostos trabalhos e atividades, que são pontuados. A nota de frequência resulta da relação entre os pontos obtidos e os pontos possíveis. A nota de frequência contribui em 60% para a nota final e o exame contribui com os restantes 40%.</p>
+  <!-- .slide: style="text-align: left;" -->
+<div class="section" id="introducao">
+<h1>Introdução<a class="headerlink" href="#introducao" title="Permalink to this headline">¶</a></h1>
+<aside class="notes">
+Uma perspectiva geral (e histórica) sobre computação gráfica e a nossa abordagem.
+</aside>
+<hr class="docutils" />
+<!-- .slide: style="text-align: left;" -->
+<div class="section" id="definicao">
+<h2>Definição<a class="headerlink" href="#definicao" title="Permalink to this headline">¶</a></h2>
+<p>Computação gráfica é a área da Informática que lida com a criação e manipulação de imagens.</p>
+<p>Inclui:</p>
+<ul class="simple">
+<li><p>hardware</p></li>
+<li><p>software</p></li>
+<li><p>aplicações</p></li>
+</ul>
+<aside class="notes">
+e vamos focar a atenção nas técnicas subjacentes e nos algoritmos de computação gráfica ( e não nas ferramentas para produzir conteúdos gráficos).
+</aside>
+<hr class="docutils" />
+<!-- .slide: style="text-align: left;" -->
 </div>
-<div class="section" id="entregas-atrasadas">
-<h2>Entregas atrasadas<a class="headerlink" href="#entregas-atrasadas" title="Permalink to this headline">¶</a></h2>
-<p>Para cada elemento avaliado é definido o prazo de entrega.
-Após esse prazo, cada dia (útil ou não) ou parte de dia é penalizado em 20% da nota.</p>
+<div class="section" id="aplicacoes-de-computacao-grafica">
+<h2>Aplicações de Computação gráfica<a class="headerlink" href="#aplicacoes-de-computacao-grafica" title="Permalink to this headline">¶</a></h2>
+<p>Atualmente todas as áreas usam computação gráfica de alguma forma.</p>
+<ul class="simple">
+<li><p>Ciência</p></li>
+<li><p>Arte</p></li>
+<li><p>Engenharia</p></li>
+<li><p>Indústria</p></li>
+<li><p>Medicina</p></li>
+<li><p>Entretenimento</p></li>
+<li><p>Educação</p></li>
+</ul>
+<hr class="docutils" />
+<!-- .slide: style="text-align: left;" -->
 </div>
-<div class="section" id="politica-de-integridade">
-<h2>Política de integridade<a class="headerlink" href="#politica-de-integridade" title="Permalink to this headline">¶</a></h2>
-<p>Trabalhamos ao abrigo do <a class="reference internal" href="CodHonra.html#codhonra"><span class="std std-ref">Código de honra</span></a>.</p>
-<p>É permitido: discussão dos materiais das aulas, enunciados dos trabalhos, conceitos informáticos associados a C/C++, OpenGL e GLSL.</p>
-<p><em>Não</em> é permitido: partilha de detalhes de implementação, código, algoritmos, pseudo-código ou algo relacionado com o desenvolvimento de (re)soluções.</p>
+<div class="section" id="perspetiva-historica">
+<h2>Perspetiva histórica<a class="headerlink" href="#perspetiva-historica" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<!-- .slide: style="text-align: left;" -->
+<div class="section" id="sistemas-graficos-interactivos">
+<h3>Sistemas Gráficos Interactivos<a class="headerlink" href="#sistemas-graficos-interactivos" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=57wj8diYpgY">SketchPAD (1963)</a></p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/IBM_2250">IBM2250 (1964)</a></p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Xerox_Star">Xerox STAR (1981)</a></p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Apple_Lisa">Apple Lisa (1983)</a></p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Windows_3.1x">PC com Windows 3.1 (1992)</a></p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/SGI_Indigo%C2%B2_and_Challenge_M">Silicon Graphics Indigo2 (1993)</a></p>
+<hr class="docutils" />
+<!-- .slide: style="text-align: left;" -->
 </div>
-<div class="section" id="planeamento">
-<h2>Planeamento<a class="headerlink" href="#planeamento" title="Permalink to this headline">¶</a></h2>
-<p>Pode consultar o <a class="reference internal" href="Plano.html#plano"><span class="std std-ref">Plano</span></a> das aulas, teóricas e práticas laboratoriais, bem como as datas de entrega dos elementos de avaliação da edição de 2020-21 de Computação Gráfica.</p>
+</div>
+<div class="section" id="animacoes">
+<h2>Animações<a class="headerlink" href="#animacoes" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://www.youtube.com/watch?v=C-L-WA-nQzI&amp;feature=relmfu">Short Films Collection Trailer, da Pixar (1984)</a></p>
+<p><a class="reference external" href="https://youtu.be/6G3O60o5U7w">Luxo Jr., da Pixar (1986)</a></p>
+<p><a class="reference external" href="https://youtu.be/nYTrIcn4rjg">For the birds, da Pixar (2000)</a></p>
+<hr class="docutils" />
+<!-- .slide: style="text-align: left;" -->
+</div>
+<div class="section" id="efeitos-especiais">
+<h2>Efeitos especiais<a class="headerlink" href="#efeitos-especiais" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://vimeo.com/9553622">Stargate Studios 2010 Virtual Backlot Demo</a></p>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=5LcfnyhW4g4">Casino Royale miniature effects</a></p>
+<p>[Harry Potter and the Half-Blood Prince - Death Eaters in London (HD)](https://www.youtube.com/watch?v=1jQmkJTCXcs], cena de pouco mais de 1 min, 1 ano de trabalho</p>
+<hr class="docutils" />
+<!-- .slide: style="text-align: left;" -->
+</div>
+<div class="section" id="como-criar-imagens-sinteticas">
+<h2>Como criar imagens sintéticas?<a class="headerlink" href="#como-criar-imagens-sinteticas" title="Permalink to this headline">¶</a></h2>
+<!-- .slide: style="text-align: left;" -->
+<div class="section" id="pipeline">
+<h3><em>Pipeline</em><a class="headerlink" href="#pipeline" title="Permalink to this headline">¶</a></h3>
+<p>Gera (ou mostra) uma imagem 2D de uma cena 3D</p>
+<p>A cena 3D contém:</p>
+<ul class="simple">
+<li><p>uma câmera virtual: posição e orientação</p></li>
+<li><p>fonte(s) de luz - localização, tipo, cor</p></li>
+<li><p>objetos 3D: cada um tem posição, orientação e escala</p>
+<ul>
+<li><p>textura ou material de cada objeto</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="visao-geral">
+<h3>Visão geral<a class="headerlink" href="#visao-geral" title="Permalink to this headline">¶</a></h3>
+<!-- 
+```{figure} /images/topicos.png
+---
+height: 100px
+name: Tópicos
+---
+Grandes áreas de CGr.
+``` -->
+<ul class="simple">
+<li><p>Modelação (<em>modelling</em>)</p></li>
+<li><p>Representação (<em>rendering</em>)
+<a class="reference external" href="https://area.autodesk.com/fakeorfoto/">Teste as sua sensibilidade</a></p></li>
+<li><p>Animação (<em>animation</em>)
+<a class="reference external" href="https://youtu.be/0EF_mO9Iu4Y">Flip book</a> :)</p></li>
+</ul>
+<!-- .slide: style="text-align: left;" -->
+</div>
+<div class="section" id="bibliografia">
+<h3>Bibliografia<a class="headerlink" href="#bibliografia" title="Permalink to this headline">¶</a></h3>
+<p id="bibtex-bibliography-docs/S1/partes/CGr_part1-0"></p>
+</div>
 </div>
 </div>
 
@@ -301,8 +425,8 @@ Após esse prazo, cada dia (útil ou não) ou parte de dia é penalizado em 20% 
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="../Introd.html" title="previous page">Introdução</a>
-    <a class='right-next' id="next-link" href="CGr_part1.html" title="next page">Introdução</a>
+    <a class='left-prev' id="prev-link" href="UC.html" title="previous page">Avaliação na UC CGr 2020-21</a>
+    <a class='right-next' id="next-link" href="../../S2/P1.html" title="next page">Preparação do ambiente de trabalho</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

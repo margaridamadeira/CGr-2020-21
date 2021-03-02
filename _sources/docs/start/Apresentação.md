@@ -17,13 +17,13 @@ Nas aulas teóricas, vamos discutir os temas da disciplina, através de apresent
 
 Nas aulas práticas laboratoriais, pretende-se acompanhar o trabalho que vai sendo desenvolvido. Esse trabalho, individual ou em grupo, poderá incluir a resolução de pequenos problemas, analíticos ou de programação, a elaboração de trabalhos mais longos, com guião, ou o desenvolvimento de projetos. É de notar que a maior parte do trabalho, individual ou em grupo, deve ser realizado fora das aulas.
 
-Até aviso em contrário, vamos usar o [Teams](.). Para além do canal geral, note os canais das aulas [teóricas](.) e dos turnos [A+C](.) e [B](.).
+Até aviso em contrário, vamos usar o [Teams](https://www.microsoft.com/pt-pt/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1). Para além do canal geral da [equipa](https://teams.microsoft.com/l/team/19%3a3319be32cb4d4479a3b380947bf82a32%40thread.tacv2/conversations?groupId=41359807-68dd-4e78-97e3-e0e6446104d3&tenantId=130f0931-a0f6-44b9-ae85-b9f16c89ad82), note os canais das aulas [teóricas](https://teams.microsoft.com/l/channel/19%3af4846cab31714768a4c0876086ca4b1f%40thread.tacv2/T?groupId=41359807-68dd-4e78-97e3-e0e6446104d3&tenantId=130f0931-a0f6-44b9-ae85-b9f16c89ad82) e dos turnos CGr-PL1 (turmas A e C) e CGr-PL2 (Turma B).
 
 .
 
 ## Por que meios?
 
-Vamos usar os padrões do mercado para a aquisição de conceitos base que depois poderão ser aplicados em diversos cenários. Assim, vamos usar C/C++ e OpenGL (>3.3).
+Vamos usar os padrões do mercado para a aquisição de conceitos base que depois poderão ser aplicados em diversos cenários. Assim, vamos usar C/C++ e OpenGL (>=3.3).
 
 
 ## Quando?
