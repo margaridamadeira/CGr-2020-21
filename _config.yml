@@ -36,3 +36,8 @@ latex:
 
 parse:
   myst_extended_syntax: true
+
+
+# #######################################################################################
+bibtex_bibfiles:
+   - referencias.bib

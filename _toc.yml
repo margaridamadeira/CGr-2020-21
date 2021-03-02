@@ -9,7 +9,10 @@
   - file: docs/S1/Introd
     sections:
       - file: docs/S1/partes/UC
-      - file: docs/S1/partes/CGr
-  - file: docs/S1/P1
-       
+      - file: docs/S1/partes/CGr_part1
+
+- part: S2
+  chapters:
+  - file: docs/S2/P1
+
 

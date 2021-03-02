@@ -16,6 +16,6 @@
 # 
 # 
 # partes/UC
-# partes/CGr
+# partes/CGr_part1
 # ```
 # 
