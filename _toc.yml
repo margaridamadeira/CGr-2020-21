@@ -11,8 +11,3 @@
       - file: docs/S1/partes/UC
       - file: docs/S1/partes/CGr_part1
 
-- part: S2
-  chapters:
-  - file: docs/S2/P1
-
-

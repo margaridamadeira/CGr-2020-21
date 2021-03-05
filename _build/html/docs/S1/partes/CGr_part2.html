@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Introdução &#8212; Computação Gráfica 2020-2021</title>
+    <title>Enquadramento &#8212; Computação Gráfica 2020-2021</title>
     
   <link rel="stylesheet" href="../../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -63,8 +63,8 @@
 <!-- Opengraph tags -->
 <meta property="og:url"         content="https://margaridamadeira.github.io/CGr-2020-21/docs/S1/partes/CGr_part2.html" />
 <meta property="og:type"        content="article" />
-<meta property="og:title"       content="Introdução" />
-<meta property="og:description" content="Introdução  &lt;aside class=&#34;notes&#34;&gt; Uma perspectiva geral sobre computação gráfica e a nossa abordagem. &lt;/aside&gt;     &lt;!-- .slide: style=&#34;text-align: left;&#34; --&gt;   " />
+<meta property="og:title"       content="Enquadramento" />
+<meta property="og:description" content="Enquadramento  &lt;aside class=&#34;notes&#34;&gt; Uma perspectiva geral sobre a criação de gráficos 3D &lt;/aside&gt;     Áreas de Computação Gráfica  &lt;!--  ```{figure} /images/to" />
 <meta property="og:image"       content="https://margaridamadeira.github.io/CGr-2020-21/_static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -117,18 +117,6 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../Introd.html">
    Introdução
-  </a>
- </li>
-</ul>
-<p class="caption">
- <span class="caption-text">
-  S2
- </span>
-</p>
-<ul class="nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="../../S2/P1.html">
-   Preparação do ambiente de trabalho
   </a>
  </li>
 </ul>
@@ -204,54 +192,10 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#definicao">
-   Definição
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#aplicacoes-de-computacao-grafica">
-   Aplicações de Computação gráfica
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#perspetiva-historica">
-   Perspetiva histórica
+  <a class="reference internal nav-link" href="#areas-de-computacao-grafica">
+   Áreas de Computação Gráfica
   </a>
   <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#sistemas-graficos-interactivos">
-     Sistemas Gráficos Interactivos
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#animacoes">
-   Animações
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#efeitos-especiais">
-   Efeitos especiais
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#como-criar-imagens-sinteticas">
-   Como criar imagens sintéticas?
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#pipeline">
-     <em>
-      Pipeline
-     </em>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#visao-geral">
-     Visão geral
-    </a>
-   </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#modelacao-modelling">
      Modelação (
@@ -280,7 +224,7 @@
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
+    <a class="reference internal nav-link" href="#pipeline">
      <em>
       Pipeline
      </em>
@@ -300,94 +244,14 @@
               <div>
                 
   <!-- .slide: style="text-align: left;" -->
-<div class="section" id="introducao">
-<h1>Introdução<a class="headerlink" href="#introducao" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="enquadramento">
+<h1>Enquadramento<a class="headerlink" href="#enquadramento" title="Permalink to this headline">¶</a></h1>
 <aside class="notes">
-Uma perspectiva geral sobre computação gráfica e a nossa abordagem.
+Uma perspectiva geral sobre a criação de gráficos 3D
 </aside>
 <hr class="docutils" />
-<!-- .slide: style="text-align: left;" -->
-<div class="section" id="definicao">
-<h2>Definição<a class="headerlink" href="#definicao" title="Permalink to this headline">¶</a></h2>
-<p>Computação gráfica é a área da Informática que lida com a criação e manipulação de imagens.</p>
-<p>Inclui:</p>
-<ul class="simple">
-<li><p>hardware</p></li>
-<li><p>software</p></li>
-<li><p>aplicações</p></li>
-</ul>
-<aside class="notes">
-e vamos focar a atenção nas técnicas subjacentes e nos algoritmos de computação gráfica ( e não nas ferramentas para produzir conteúdos gráficos).
-</aside>
-<hr class="docutils" />
-<!-- .slide: style="text-align: left;" -->
-</div>
-<div class="section" id="aplicacoes-de-computacao-grafica">
-<h2>Aplicações de Computação gráfica<a class="headerlink" href="#aplicacoes-de-computacao-grafica" title="Permalink to this headline">¶</a></h2>
-<p>Atualmente todas as áreas usam computação gráfica de alguma forma.</p>
-<ul class="simple">
-<li><p>Ciência</p></li>
-<li><p>Arte</p></li>
-<li><p>Engenharia</p></li>
-<li><p>Indústria</p></li>
-<li><p>Medicina</p></li>
-<li><p>Entretenimento</p></li>
-<li><p>Educação</p></li>
-</ul>
-<hr class="docutils" />
-<!-- .slide: style="text-align: left;" -->
-</div>
-<div class="section" id="perspetiva-historica">
-<h2>Perspetiva histórica<a class="headerlink" href="#perspetiva-historica" title="Permalink to this headline">¶</a></h2>
-<hr class="docutils" />
-<!-- .slide: style="text-align: left;" -->
-<div class="section" id="sistemas-graficos-interactivos">
-<h3>Sistemas Gráficos Interactivos<a class="headerlink" href="#sistemas-graficos-interactivos" title="Permalink to this headline">¶</a></h3>
-<p><a class="reference external" href="https://www.youtube.com/watch?v=57wj8diYpgY">SketchPAD (1963)</a></p>
-<p><a class="reference external" href="https://en.wikipedia.org/wiki/IBM_2250">IBM2250 (1964)</a></p>
-<p><a class="reference external" href="https://en.wikipedia.org/wiki/Xerox_Star">Xerox STAR (1981)</a></p>
-<p><a class="reference external" href="https://en.wikipedia.org/wiki/Apple_Lisa">Apple Lisa (1983)</a></p>
-<p><a class="reference external" href="https://en.wikipedia.org/wiki/Windows_3.1x">PC com Windows 3.1 (1992)</a></p>
-<p><a class="reference external" href="https://en.wikipedia.org/wiki/SGI_Indigo%C2%B2_and_Challenge_M">Silicon Graphics Indigo2 (1993)</a></p>
-<hr class="docutils" />
-<!-- .slide: style="text-align: left;" -->
-</div>
-</div>
-<div class="section" id="animacoes">
-<h2>Animações<a class="headerlink" href="#animacoes" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="http://www.youtube.com/watch?v=C-L-WA-nQzI&amp;feature=relmfu">Short Films Collection Trailer, da Pixar (1984)</a></p>
-<p><a class="reference external" href="https://youtu.be/6G3O60o5U7w">Luxo Jr., da Pixar (1986)</a></p>
-<p><a class="reference external" href="https://youtu.be/nYTrIcn4rjg">For the birds, da Pixar (2000)</a></p>
-<hr class="docutils" />
-<!-- .slide: style="text-align: left;" -->
-</div>
-<div class="section" id="efeitos-especiais">
-<h2>Efeitos especiais<a class="headerlink" href="#efeitos-especiais" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://vimeo.com/9553622">Stargate Studios 2010 Virtual Backlot Demo</a></p>
-<p><a class="reference external" href="https://www.youtube.com/watch?v=5LcfnyhW4g4">Casino Royale miniature effects</a></p>
-<p>[Harry Potter and the Half-Blood Prince - Death Eaters in London (HD)](https://www.youtube.com/watch?v=1jQmkJTCXcs], cena de pouco mais de 1 min, 1 ano de trabalho</p>
-<hr class="docutils" />
-<!-- .slide: style="text-align: left;" -->
-</div>
-<div class="section" id="como-criar-imagens-sinteticas">
-<h2>Como criar imagens sintéticas?<a class="headerlink" href="#como-criar-imagens-sinteticas" title="Permalink to this headline">¶</a></h2>
-<!-- .slide: style="text-align: left;" -->
-<div class="section" id="pipeline">
-<h3><em>Pipeline</em><a class="headerlink" href="#pipeline" title="Permalink to this headline">¶</a></h3>
-<p>Gera (ou mostra) uma imagem 2D de uma cena 3D</p>
-<p>A cena 3D contém:</p>
-<ul class="simple">
-<li><p>uma câmera virtual: posição e orientação</p></li>
-<li><p>fonte(s) de luz - localização, tipo, cor</p></li>
-<li><p>objetos 3D: cada um tem posição, orientação e escala</p>
-<ul>
-<li><p>textura ou material de cada objeto</p></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="section" id="visao-geral">
-<h3>Visão geral<a class="headerlink" href="#visao-geral" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="areas-de-computacao-grafica">
+<h2>Áreas de Computação Gráfica<a class="headerlink" href="#areas-de-computacao-grafica" title="Permalink to this headline">¶</a></h2>
 <!-- 
 ```{figure} /images/topicos.png
 ---
@@ -398,14 +262,11 @@ Grandes áreas de CGr.
 ``` -->
 <ul class="simple">
 <li><p>Modelação (<em>modelling</em>)</p></li>
-<li><p>Representação (<em>rendering</em>)
-<a class="reference external" href="https://area.autodesk.com/fakeorfoto/">Teste as sua sensibilidade</a></p></li>
-<li><p>Animação (<em>animation</em>)
-<a class="reference external" href="https://youtu.be/0EF_mO9Iu4Y">Flip book</a> :)</p></li>
+<li><p>Representação (<em>rendering</em>)</p></li>
+<li><p>Animação (<em>animation</em>)</p></li>
 </ul>
 <hr class="docutils" />
 <!-- .slide: style="text-align: left;" -->
-</div>
 <div class="section" id="modelacao-modelling">
 <h3>Modelação (<em>modelling</em>)<a class="headerlink" href="#modelacao-modelling" title="Permalink to this headline">¶</a></h3>
 <p>Processamento de Vértices</p>
@@ -430,8 +291,8 @@ Mundo &gt;&gt; Camâra &gt;&gt; Dispositivo</p></li>
 <hr class="docutils" />
 <!-- .slide: style="text-align: left;" -->
 </div>
-<div class="section" id="id2">
-<h3><em>Pipeline</em><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="pipeline">
+<h3><em>Pipeline</em><a class="headerlink" href="#pipeline" title="Permalink to this headline">¶</a></h3>
 <p>Gera (ou mostra) uma imagem 2D de uma cena 3D</p>
 <p>A cena 3D contém:</p>
 <ul class="simple">
@@ -678,7 +539,7 @@ Display</p>
         
           By Margarida Madeira e Moura<br/>
         
-            &copy; Copyright 2020.<br/>
+            &copy; Copyright 2021.<br/>
       </p>
     </div>
   </footer>

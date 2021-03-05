@@ -8,7 +8,7 @@ Computação Gráfica (CGr) é a disciplina onde se apresenta a computação gr�
 
 A computação gráfica lida com a criação, armazenamento e manipulação de modelos e imagens. Esses modelos advêm de diversos domínios, como matemática, física, biologia ou arte. As imagens são produzidas a partir dos modelos criados, sujeitas a manipulação.
 
-A computação gráfica é utilizada em áreas díspares como Educação, Entretenimento (jogos e filmes), Desenho Assistido por Computador (CAD), Sistemas de Informação Geográfica (GIS) e Visualização Médica e Científica
+A computação gráfica é utilizada em áreas díspares como Educação, Entretenimento (jogos e filmes), Desenho Assistido por Computador (CAD), Sistemas de Informação Geográfica (GIS) e Visualização Médica e Científica.
 
 
 ## Como?
@@ -19,7 +19,6 @@ Nas aulas práticas laboratoriais, pretende-se acompanhar o trabalho que vai sen
 
 Até aviso em contrário, vamos usar o [Teams](https://www.microsoft.com/pt-pt/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1). Para além do canal geral da [equipa](https://teams.microsoft.com/l/team/19%3a3319be32cb4d4479a3b380947bf82a32%40thread.tacv2/conversations?groupId=41359807-68dd-4e78-97e3-e0e6446104d3&tenantId=130f0931-a0f6-44b9-ae85-b9f16c89ad82), note os canais das aulas [teóricas](https://teams.microsoft.com/l/channel/19%3af4846cab31714768a4c0876086ca4b1f%40thread.tacv2/T?groupId=41359807-68dd-4e78-97e3-e0e6446104d3&tenantId=130f0931-a0f6-44b9-ae85-b9f16c89ad82) e dos turnos CGr-PL1 (turmas A e C) e CGr-PL2 (Turma B).
 
-.
 
 ## Por que meios?
 
